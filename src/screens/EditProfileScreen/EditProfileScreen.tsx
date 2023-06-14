@@ -1,5 +1,5 @@
 import {View, Text, StyleSheet, TextInput, Image} from 'react-native';
-import {launchImageLibrary} from 'react-native-image-picker';
+import {Asset, launchImageLibrary} from 'react-native-image-picker';
 import user from '../../assets/data/user.json';
 import fonts from '../../theme/fonts';
 import colors from '../../theme/colors';
