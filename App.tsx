@@ -1,14 +1,16 @@
-import { View, Text } from 'react-native';
-import colors from './src/theme/colors';
-import fonts from './src/theme/fonts';
-
+import {StyleSheet, View, FlatList} from 'react-native';
+import HomeScreen from './src/screens/HomeScreen';
+import CommentsScreen from './src/screens/CommentsScreen';
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
+    <View style={styles.app}>
+      <HomeScreen />
     </View>
-  )
-}
+  );
+};
+const styles = StyleSheet.create({
+  app: {flex: 1},
+});
 
-export default App
+export default App;

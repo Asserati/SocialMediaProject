@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "react": "18.2.0",
+    "react-hook-form": "^7.44.3",
     "react-native": "0.71.8",
-    "react-native-vector-icons": "^9.2.0"
+    "react-native-image-picker": "^5.4.2",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-video": "^6.0.0-alpha.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -22,6 +25,8 @@
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^29.2.1",
     "@types/react": "^18.0.24",
+    "@types/react-native-vector-icons": "^6.4.13",
+    "@types/react-native-video": "^5.0.14",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.2.1",
     "eslint": "^8.19.0",
